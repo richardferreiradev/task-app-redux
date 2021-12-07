@@ -1,0 +1,11 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Initial Task",
+      "description": "Set up redux",
+      "date": "2021-06-12",
+      "important": true
+    }
+  ]
+}
