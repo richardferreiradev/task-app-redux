@@ -1,19 +1,20 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState, AppThunk } from "../../redux/store";
+import { TaskState } from "../../interfaces/TaskState";
 
-export interface TaskState {
-  id: number;
-  name: string;
-  description: string;
-  date: Date;
-  important: boolean;
-}
+// export interface TaskState {
+//   id: number;
+//   name: string;
+//   description: string;
+//   date: Date;
+//   important: boolean;
+// }
 
 const initialState: TaskState = {
   id: 1,
   name: "Add redux",
   description: "Add redux to this project",
-  date: new Date(),
+  date: "2000-01-01",
   important: true,
 };
 

@@ -1,11 +1,15 @@
 import React from "react";
+import { TaskState } from "../../interfaces/TaskState";
+import styles from "./Task.module.css";
 
-interface Props {}
-
-export const Task = (props: Props) => {
+export const Task = (props: TaskState) => {
   return (
-    <div>
-      <p>Hello from Tasks!</p>
+    <div className={styles.container}>
+      <h3 className={styles.header}>{props.name}</h3>
+      <div className={styles.subContainer}>
+        <p>{props.description}</p>
+        <p>{props.date}</p>
+      </div>
     </div>
   );
 };

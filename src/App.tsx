@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
-import { TaskList } from "./components/TaskList/TaskList";
+import { TaskList } from "./components";
 import "./App.css";
 
 function App() {

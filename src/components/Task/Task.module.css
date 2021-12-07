@@ -1,0 +1,25 @@
+.container {
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  margin: 10px 0;
+  border-left: 6px solid purple;
+}
+
+.header {
+  text-align: left;
+  padding: 5px 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+p,
+h3 {
+  margin: 0;
+}
